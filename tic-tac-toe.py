@@ -61,7 +61,10 @@ def play_again():
         print("See you later!!")
     else:
         again = input("I am sorry I did not understand. Can you just write 'yes' or 'no':")
-        print(again)
+        new_game = [[0, 0, 0], 
+                    [0, 0, 0], 
+                    [0, 0, 0]]
+        run_the_game(new_game)
     
 def run_the_game(game):
     how_many = 0
